@@ -35,7 +35,6 @@ The current implementation in a Databricks notebook using Python/Spark is a soli
 - Add:
   - Pipeline monitoring
   - Failure alerts (Slack, email, etc.)
-  - SLAs / SLOs tracking
 - Capture logs and metrics systematically
 
 ### **6. Lineage and observability**
@@ -84,7 +83,7 @@ You get: dbt models → compiled SQL → executed on Databricks SQL Warehouse / 
 Yes, typically:
 
 - **Orchestrator**
-  - e.g., :contentReference[oaicite:0]{index=0} or :contentReference[oaicite:1]{index=1}
+  - e.g., Airflow, Dugster or such
 - **Compute for dbt execution**
   - Databricks SQL Warehouse or cluster
 - **CI/CD system**
