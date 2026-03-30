@@ -10,7 +10,7 @@ The current implementation in a Databricks notebook using Python/Spark is a soli
 - Decouple ingestion, transformation, and serving layers
 
 ### **2. Version control and CI/CD**
-- Code should be managed in Git
+- Code should be managed in Git (this particular project has been versioned on GitHub)
 - Introduce:
   - Pull request reviews
   - Automated testing pipelines
